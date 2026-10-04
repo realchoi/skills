@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python（skill 里的 scripts/）
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 环境变量与密钥
+.env
+.env.*
+
+# Claude Code 本地设置（个人权限配置，不共享）
+.claude/settings.local.json
+
+# skill-creator 的评测工作区（与 skill 目录同级的 <skill-name>-workspace/）和打包产物
+*-workspace/
+*.skill
+*.zip
+
+# 测试 skill 时生成的 App Store Connect 文案
+asc-*.md
